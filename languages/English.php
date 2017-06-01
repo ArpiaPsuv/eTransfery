@@ -1,8 +1,8 @@
 <?php
-// This is language file for BitExchanger v2.0
-// Author: me4onkof
-// Website: http://www.exchangesoftware.info
-// Email: support@exchangesoftware.info
+// This is language file for eTransfery v2.0.1
+// Author: Lucas Leandro
+// Website: https://www.eTransfery.com
+// Email: billing@etransfery.com
 
 $lang = array();
 
