@@ -1,3 +1,4 @@
+![alt text](https://www.teamgridapp.com/wp-content/uploads/2016/03/blue-on-white-logo.png)
 # eTransfery [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Send, receive and payments worldwide.
