@@ -14,7 +14,7 @@ Please ensure your pull request adheres to the following guidelines:
 - Check your spelling and grammar.
 - Make sure you text editor is set to remove trailing whitespace.
 
-Thanks you for help us...
+Thanks you for help us..
 
 
  
