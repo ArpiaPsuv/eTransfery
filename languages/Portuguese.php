@@ -1,19 +1,17 @@
 <?php
-// This is language file for eTransfery v2.0.1
+// This is language file for BitExchanger v2.0
 // Author: Lucas Leandro
-// Website: https://www.eTransfery.com
-// Email: billing@etransfery.com
+// Website: ebitcoin.co
+// Email: lucasleandro380@gmail.com
 
 $lang = array();
 
 // Type of language: rtl - right to left, ltr = left to right
 // Default is ltr
 // For Arabic and similar use rtl
-
 $lang['lang_type'] = 'ltr'; 
 
 // Main 
-
 $lang['my_exchanges'] = 'Minhas Trocas';
 $lang['my_testimonials'] = 'Meus Testemunhos';
 $lang['referrals'] = 'Referências';
@@ -95,7 +93,7 @@ $lang['repassword'] = 'Redigite a senha';
 $lang['with_registering'] = 'Com o registro em você concorda com nosso';
 $lang['login'] = 'Entrar';
 $lang['create_account'] = 'Criar Conta';
-$lang['exchange'] = 'Troca';
+$lang['exchange'] = 'Inicio';
 $lang['testimonials'] = 'Testemunhos';
 $lang['affiliate'] = 'Afiliado';
 $lang['about'] = 'Sobre';
@@ -200,23 +198,22 @@ $lang['type'] = 'Tipo';
 $lang['positive'] = 'Positivo';
 $lang['neutral'] = 'Neutro';
 $lang['negative'] = 'Negativo';
-$lang['awesome_testimonials'] = 'Impressionantes <strong>Testemunhos</strong>';
+$lang['awesome_testimonials'] = '<strong>Testemunhos</strong>';
 $lang['latest_exchanges'] = 'Últimos intercâmbios';
-$lang['track_exchange'] = 'Seguir Troca';
-$lang['type_here_exchange_id'] = 'Digite aqui o ID de troca';
-$lang['btn_track'] = 'Seguir';
+$lang['track_exchange'] = 'Seguir Transação';
+$lang['type_here_exchange_id'] = 'Codigo da Transação';
+$lang['btn_track'] = 'Checar';
 $lang['still_no_exchanges'] = 'Ainda não têm trocas.';
 $lang['no_found_results_for_exchange'] = 'Não há resultados para exchange';
 
 // Buttons
-
 $lang['button_1'] = 'Clique aqui';
 $lang['btn_send_message'] = 'Enviar mensagem';
 $lang['btn_confirm_order'] = 'Confirmar pedido';
 $lang['btn_cancel_order'] = 'Cancelar pedido';
 $lang['btn_login'] = 'Entrar';
 $lang['btn_register'] = 'Registrar';
-$lang['btn_exchange'] = 'Troca';
+$lang['btn_exchange'] = 'Começar';
 $lang['btn_save_changes'] = 'Salvar alterações';
 $lang['btn_submit'] = 'Enviar';
 $lang['btn_send_verification_email'] = 'Enviar email de confirmação';
@@ -233,7 +230,6 @@ $lang['btn_process_exchange'] = 'Intercâmbio de processos';
 $lang['btn_confirm_transaction'] = 'Confirmar transação';
 
 // Info messages
-
 $lang['info_1'] = 'Sua conta ainda não está ativada.';
 $lang['info_2'] = 'Para ativá-lo.';
 $lang['info_3'] = 'Você deve fazer login na sua conta para continuar a troca.';
@@ -247,7 +243,6 @@ $lang['info_10'] = 'Você pode acompanhar sua troca neste link';
 $lang['info_11'] = 'Você precisa fazer o pagamento manualmente, use os dados abaixo e digite o código PIN da transação no formulário abaixo.';
 
 // Success messages
-
 $lang['success_1'] = 'Sua mensagem foi enviada. Vamos tentar o mais rápido possível para obter uma resposta.';
 $lang['success_2'] = 'Seu e-mail foi verificado com êxito. Você pode fazer login e continuar a troca.';
 $lang['success_3'] = 'Seu comentário foi excluído.';
@@ -267,7 +262,6 @@ $lang['success_15'] = 'Obrigado! Após confirmar manualmente sua transação far
 $lang['success_16'] = 'A sua conta foi criada. Redirecionando...';
 
 // Error messages
-
 $lang['error_1'] = 'Todos os campos são necessários.';
 $lang['error_2'] = 'Por favor insira o endereço de e-mail válido.';
 $lang['error_3'] = 'Erro com o e-mail enviado. Por favor, tente novamente.';

@@ -38,9 +38,12 @@
 												</select>
 											</div>
 											<div class="form-group">
+												<h5>Você envia</h5>
+											</div>
+											<div class="form-group">
 												<input type="text" class="form-control form_style_1 input-lg" id="bit_amount_send" name="bit_amount_send" value="0" onkeyup="bit_calculator();" onkeydown="bit_calculator();">
 											</div>
-											<div class="text text-muted pull-right" style="padding-bottom:10px;font-weight:bold;"><?php echo $lang['exchange_rate']; ?>: <span id="bit_exchange_rate">-</span></div>
+											<div class="text text-muted pull-right" style="padding-bottom:10px;font-weight:bld;"><?php echo $lang['exchange_rate']; ?>: <span id="bit_exchange_rate">-</span></div>
 										</div>
 									</div>
 								</div>
@@ -64,9 +67,12 @@
 												</select>
 											</div>
 											<div class="form-group">
+												<h5>Beneficiário recebe</h5>
+											</div>
+											<div class="form-group">
 												<input type="text" class="form-control form_style_1 input-lg" id="bit_amount_receive" name="bit_amount_receive" disabled value="0">
 											</div>
-											<div class="text text-muted" style="padding-bottom:10px;font-weight:bold;"><?php echo $lang['reserve']; ?>: <span id="bit_reserve">-</span></div>
+											<div class="text text-muted" style="padding-bottom:10px;font-weight:bld;"><?php echo $lang['reserve']; ?>: <span id="bit_reserve">-</span></div>
 										</div>
 										<div class="col-md-3 hidden-xs hidden-sm">
 											<div style="margin-top:50px;">

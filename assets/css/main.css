@@ -1,10 +1,10 @@
 /*
-	Template Name: eTransfery
-    Template URL: https://eTransfery.com/
-	Author: Lucas Leandro
-	Author URI : https://www.facebook.com/ocaradepau/
+	Template Name: Trade
+    Template URL: http://demo.themeregion.com/trade
+	Author: Theme Region
+	Author URI : http://www.themeregion.com/
     Version: 1.0
-    Description: Main Theme of eTransfery.
+    Description: HTML5 Responsive Classifieds Template.
 	Tag: HTML5, CSS3, jQuery, Responsive Template.
 */
 
@@ -40,7 +40,7 @@
  	Global
  ========================================================================== */
 .img-bordered {
-	border: 3px solid #E8E8E8;
+	border: 3px solid #37518E;
 	padding:2px;
 }
 html,
@@ -167,9 +167,9 @@ textarea {
 	font-size:18px;
 	font-weight:400;
 	text-transform:capitalize;
-	background-color:#00a651;
-	padding:10px 40px 12px;
-	border:0;
+	background-color:#405F96;
+	padding: 10px 50px 12px;
+	border: 0 auto;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
@@ -314,7 +314,7 @@ textarea {
 .language-dropdown i.fa-globe,
 .sign-in li i {
 	font-size: 14px;
-	color: #00a651;
+	color: #37518e;
 	margin-right: 5px;
 }
 
@@ -376,11 +376,19 @@ textarea {
 /* ==========================================================================
  	Main
  ========================================================================== */
+.hero-width-background {
+
+	
+}
+
 #main {
- 	background-image: url(../images/bg/main.png);
+	background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDQ2IiBoZWlnaHQ9IjczMiI+ICA8cGF0aCBmaWxsPSIjNDA1Rjk2IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNjk1LjUgMjhDMTg4NyAyOCAyMDQyIDE4MyAyMDQyIDM3NC41UzE4ODcgNzIxIDE2OTUuNSA3MjEgMTM0OSA1NjYgMTM0OSAzNzQuNSAxNTA0IDI4IDE2OTUuNSAyOHpNMjkzIDI4TDAgNzE4aDc1N2wyOTMtNjkwIi8+PC9zdmc+);
+	background-size: 1800px;
+	padding: 48px;
  	background-repeat: no-repeat;
  	background-position: top center;
- 	background-color: #f7f7f7;
+ 	background-color: #37518E;
+ 	background-position: left -360px bottom -360px;
 }
 
 #main.home-default {
@@ -3049,6 +3057,7 @@ transform: scale(1.05) rotate(2deg);
  ========================================================================== */
 #footer {
 	border-top:1px solid #efefef;
+	background-color: #F2F5F5
 }
 .footer-top {
 	padding: 50px 0 57px;
